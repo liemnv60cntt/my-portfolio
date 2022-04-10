@@ -4,34 +4,34 @@ export default function Testimonials() {
   const data = [
     {
       id: 1,
-      name: "Tom Durden",
-      title: "Senior Developer",
+      name: "Ngo Xuan Huy",
+      title: "Junior Developer",
       img:
-        "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "https://cdn.tgdd.vn/GameApp/1380979/tom-1-800x495.jpg",
       icon: "assets/twitter.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+        "Be strong as you fight your way to success, the difficulty you face is nothing compared to the joy of success.",
     },
     {
       id: 2,
-      name: "Alex Kalinski",
-      title: "Co-Founder of DELKA",
+      name: "Vo Ba Toan",
+      title: "Student at NTU",
       img:
-        "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "https://sc04.alicdn.com/kf/H5b0183557cec4043946f03208a7a29dat.jpg",
       icon: "assets/youtube.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+        "Here’s wishing you good luck as you move on to a new challenge. Though the road may be rocky and filled with difficulties, we know that you can fight whatever challenges you face",
       featured: true,
     },
     {
       id: 3,
-      name: "Martin Harold",
-      title: "CEO of ALBI",
+      name: "Tran Ngoc Mai",
+      title: "CEO of ABC",
       img:
-        "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "https://static2.yan.vn/YanNews/2167221/202112/nhung-tinh-tiet-trai-nguoc-ve-vai-dien-cua-jisoo-trong-snowdrop-3026021f.jpg",
       icon: "assets/linkedin.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+        "You’re doing great! You’ve done a great job! Keep up the good work! ",
     },
   ];
   return (

@@ -9,7 +9,7 @@ export default function Intro() {
       showCursor: true, 
       backDelay: 1500,
       backSpeed: 60,
-      strings: ['Backend Developer', '.NET Developer', "PHP Developer"] })
+      strings: ['Backend Developer.', '.NET Developer.', "PHP Developer."] })
   }, [])
   return (
     <div className='intro' id='intro'>

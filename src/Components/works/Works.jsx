@@ -6,30 +6,30 @@ export default function Works() {
   const data = [
     {
       id: "1",
-      icon: "./assets/mobile.png",
-      title: "Web Design",
+      icon: "./assets/globe.png",
+      title: "Back-end Developer",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        "My expertise is programming websites using ASP.NET Core, ASP.NET MVC and PHP.",
       img:
-        "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+        "https://monamedia.co/wp-content/uploads/2020/02/thiet-ke-phan-mem-theo-yeu-cau-2.png",
     },
     {
       id: "2",
       icon: "./assets/globe.png",
-      title: "Mobile Application",
+      title: "Front-end Developer",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "In addition, I'm also good at designing UI for websites using HTML5/CSS3/JS, Bootstrap 5...",
       img:
-        "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+        "https://tamnguyen.com.vn/hinhanh/tintuc/nhung-chu-y-quan-trong-khi-thiet-ke-website.png",
     },
     {
       id: "3",
-      icon: "./assets/writing.png",
-      title: "Branding",
+      icon: "./assets/mobile.png",
+      title: "Mobile Application",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "I can design and develop simple mobile apps using Flutter.",
       img:
-        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+        "https://litslink.com/wp-content/uploads/2020/03/flutter-app-featured.png",
     },
   ];
   const handleClick = (way)=>{
@@ -56,7 +56,7 @@ export default function Works() {
                 </div>
               </div>
               <div className="right">
-                <img src="http://howtodrawapp.com/wp-content/uploads/2021/04/mobile-app.jpg" alt="" />
+                <img src={d.img} alt="" />
               </div>
             </div>
           </div>
